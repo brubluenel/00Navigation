@@ -1,0 +1,11 @@
+import Foundation
+import UIKit
+
+class BaseNavigationController: UINavigationController {
+    
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        self.modalPresentationStyle = .fullScreen
+    }
+}

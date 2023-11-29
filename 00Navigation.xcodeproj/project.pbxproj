@@ -13,6 +13,18 @@
 		E2A6651E2B142A7A00F16394 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2A6651C2B142A7A00F16394 /* Main.storyboard */; };
 		E2A665202B142A7C00F16394 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2A6651F2B142A7C00F16394 /* Assets.xcassets */; };
 		E2A665232B142A7C00F16394 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2A665212B142A7C00F16394 /* LaunchScreen.storyboard */; };
+		E2A6652B2B142BDE00F16394 /* Modal_1_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A6652A2B142BDE00F16394 /* Modal_1_ViewController.swift */; };
+		E2A6652D2B142BE600F16394 /* Modal_2_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A6652C2B142BE600F16394 /* Modal_2_ViewController.swift */; };
+		E2A6652F2B1430CC00F16394 /* SubViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A6652E2B1430CC00F16394 /* SubViewController.swift */; };
+		E2A665312B1432A700F16394 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A665302B1432A700F16394 /* BaseViewController.swift */; };
+		E2A665332B14551000F16394 /* BaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A665322B14551000F16394 /* BaseNavigationController.swift */; };
+		E2A665352B14579500F16394 /* BottomSheetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A665342B14579500F16394 /* BottomSheetViewController.swift */; };
+		E2A665392B14629600F16394 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A665382B14629600F16394 /* HomeView.swift */; };
+		E2A6653B2B14667A00F16394 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A6653A2B14667A00F16394 /* HomeController.swift */; };
+		E2A6653D2B1466DC00F16394 /* Modal_1_View.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A6653C2B1466DC00F16394 /* Modal_1_View.swift */; };
+		E2A6653F2B14807C00F16394 /* ModalController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A6653E2B14807C00F16394 /* ModalController.swift */; };
+		E2A665412B14817500F16394 /* BaseModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A665402B14817500F16394 /* BaseModalView.swift */; };
+		E2A665432B148BB100F16394 /* BottomSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A665422B148BB100F16394 /* BottomSheetView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +36,18 @@
 		E2A6651F2B142A7C00F16394 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E2A665222B142A7C00F16394 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E2A665242B142A7C00F16394 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2A6652A2B142BDE00F16394 /* Modal_1_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modal_1_ViewController.swift; sourceTree = "<group>"; };
+		E2A6652C2B142BE600F16394 /* Modal_2_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modal_2_ViewController.swift; sourceTree = "<group>"; };
+		E2A6652E2B1430CC00F16394 /* SubViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubViewController.swift; sourceTree = "<group>"; };
+		E2A665302B1432A700F16394 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		E2A665322B14551000F16394 /* BaseNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseNavigationController.swift; sourceTree = "<group>"; };
+		E2A665342B14579500F16394 /* BottomSheetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomSheetViewController.swift; sourceTree = "<group>"; };
+		E2A665382B14629600F16394 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		E2A6653A2B14667A00F16394 /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
+		E2A6653C2B1466DC00F16394 /* Modal_1_View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modal_1_View.swift; sourceTree = "<group>"; };
+		E2A6653E2B14807C00F16394 /* ModalController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalController.swift; sourceTree = "<group>"; };
+		E2A665402B14817500F16394 /* BaseModalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseModalView.swift; sourceTree = "<group>"; };
+		E2A665422B148BB100F16394 /* BottomSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomSheetView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +80,43 @@
 		E2A665152B142A7A00F16394 /* 00Navigation */ = {
 			isa = PBXGroup;
 			children = (
+				E2A665372B14628700F16394 /* SwiftUI */,
+				E2A665362B14627E00F16394 /* UIKit */,
 				E2A665162B142A7A00F16394 /* AppDelegate.swift */,
 				E2A665182B142A7A00F16394 /* SceneDelegate.swift */,
-				E2A6651A2B142A7A00F16394 /* ViewController.swift */,
-				E2A6651C2B142A7A00F16394 /* Main.storyboard */,
 				E2A6651F2B142A7C00F16394 /* Assets.xcassets */,
 				E2A665212B142A7C00F16394 /* LaunchScreen.storyboard */,
 				E2A665242B142A7C00F16394 /* Info.plist */,
 			);
 			path = 00Navigation;
+			sourceTree = "<group>";
+		};
+		E2A665362B14627E00F16394 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				E2A665342B14579500F16394 /* BottomSheetViewController.swift */,
+				E2A6651A2B142A7A00F16394 /* ViewController.swift */,
+				E2A6652A2B142BDE00F16394 /* Modal_1_ViewController.swift */,
+				E2A665302B1432A700F16394 /* BaseViewController.swift */,
+				E2A665322B14551000F16394 /* BaseNavigationController.swift */,
+				E2A6652C2B142BE600F16394 /* Modal_2_ViewController.swift */,
+				E2A6652E2B1430CC00F16394 /* SubViewController.swift */,
+				E2A6651C2B142A7A00F16394 /* Main.storyboard */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		E2A665372B14628700F16394 /* SwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				E2A665382B14629600F16394 /* HomeView.swift */,
+				E2A6653A2B14667A00F16394 /* HomeController.swift */,
+				E2A6653C2B1466DC00F16394 /* Modal_1_View.swift */,
+				E2A6653E2B14807C00F16394 /* ModalController.swift */,
+				E2A665402B14817500F16394 /* BaseModalView.swift */,
+				E2A665422B148BB100F16394 /* BottomSheetView.swift */,
+			);
+			path = SwiftUI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,8 +190,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2A6653D2B1466DC00F16394 /* Modal_1_View.swift in Sources */,
+				E2A665332B14551000F16394 /* BaseNavigationController.swift in Sources */,
+				E2A665352B14579500F16394 /* BottomSheetViewController.swift in Sources */,
+				E2A6653B2B14667A00F16394 /* HomeController.swift in Sources */,
+				E2A6652D2B142BE600F16394 /* Modal_2_ViewController.swift in Sources */,
+				E2A665392B14629600F16394 /* HomeView.swift in Sources */,
 				E2A6651B2B142A7A00F16394 /* ViewController.swift in Sources */,
 				E2A665172B142A7A00F16394 /* AppDelegate.swift in Sources */,
+				E2A6652F2B1430CC00F16394 /* SubViewController.swift in Sources */,
+				E2A665412B14817500F16394 /* BaseModalView.swift in Sources */,
+				E2A6653F2B14807C00F16394 /* ModalController.swift in Sources */,
+				E2A665432B148BB100F16394 /* BottomSheetView.swift in Sources */,
+				E2A6652B2B142BDE00F16394 /* Modal_1_ViewController.swift in Sources */,
+				E2A665312B1432A700F16394 /* BaseViewController.swift in Sources */,
 				E2A665192B142A7A00F16394 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -297,7 +361,7 @@
 				INFOPLIST_FILE = 00Navigation/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -325,7 +389,7 @@
 				INFOPLIST_FILE = 00Navigation/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
